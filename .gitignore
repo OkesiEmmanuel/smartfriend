@@ -1,0 +1,28 @@
+.env
+# Python byte-code cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info
+
+# Django-specific
+.DS_Store
+*.sqlite3
+db.sqlite3
+local_settings.py
+media/
+static/
+
+# IDE-specific
+.idea/
+*.iml
+.vscode/
+
+# virtualenv
+venv/
+env/
+
+# test-related
+.pytest_cache/
